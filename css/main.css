@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-color: rgb(55, 52, 52);
+}
+
+h1 {
+    font-size: 3.5em;
+    color: rgb(165, 165, 22);
+}
+
+h2 {
+    color: cornflowerblue;
+
+}
+
+.num-table {
+    margin: auto;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 140, 33, 0.906);
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 10%;
+    font-weight: bolder;
+}
+
+td:hover {
+    background-color: rgb(216, 60, 60);
+}
+
+.timerDisplay {
+    margin-top: 15px;
+    font-size: 2em;
+    color: red;
+}
